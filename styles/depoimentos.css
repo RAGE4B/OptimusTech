@@ -1,0 +1,36 @@
+
+.depoimentos{
+    text-align: center;
+    padding: 5vh 5vw;
+}
+
+.depoimentos--area {
+    background: rgba(142, 36 , 36, 0.1);
+    padding: 4em;
+    border-radius: 15px;
+}
+
+.titulo--depoimento{
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--vermelho);
+}
+
+.texto--depoimento{
+    font-size: 36px;
+    font-weight: 500;
+    color: #101828;
+    line-height: 1.3em;
+    margin: 1em 0;
+}
+
+.autor{
+    font-weight: 500;
+    color: #101828;
+    margin: 1em 0;
+}
+
+.cargo{
+    font-size: 14px;
+    color: var(--cor-secundaria);
+}

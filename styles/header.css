@@ -1,0 +1,63 @@
+    
+    .cabecalho{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2em 5vw;
+    }
+    
+    .pagina{
+        display: flex;
+        align-items: center;
+    }
+    
+    
+    .pagina-titulo{
+        font-size: 18px;
+        font-weight: 500;
+        margin: 0 0.5em;
+        color: #3A404E;
+    }
+
+    .navegacao{
+        display: flex;
+        padding: 0 10em;
+        margin-right: auto;
+    }
+    .lista-item{
+        margin: 0 1em;
+    }
+
+    .lista-link{
+        color: var(--cor-secundaria);
+        text-decoration: none;
+        font-weight: 500;
+        transition: 0.3s;
+    }
+
+    .lista-link:hover{
+        color: #98A2B3;
+        transition: 0.3s;
+    }
+
+    .cadastro{
+        font-weight: 500;
+        color: #ffffff;
+        padding: 0.7em 1.5em;
+        border-radius: 8px;
+        background-color: var(--vermelho);
+        text-decoration: none;
+        transition: 0.3s;
+    }
+
+    .login{
+        text-decoration: none;
+        color: var(--cor-secundaria);
+        margin-right: 1em;
+
+    }
+
+    .cadastro:hover{
+        background: rgba(142, 36 , 36, 0.8);
+        transition: 0.3s;
+    }

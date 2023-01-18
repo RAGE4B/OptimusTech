@@ -1,0 +1,25 @@
+.sub-titulo__section{
+    color: var(--vermelho);
+    font-weight: 600;
+}
+
+.titulo__section{
+    font-size: 48px;
+    font-weight: 600;
+    color: var(--cor-principal);
+    padding: 1em 0;
+}
+
+.descricao__section{
+    font-size: 20px;
+    color: var(--cor-secundaria);
+    width: 60%;
+    margin: 0 auto;
+    line-height: 1.5em;
+
+}
+
+.sobre-container{
+    text-align: center;
+    padding: 10vh 10vw;
+}

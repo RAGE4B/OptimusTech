@@ -1,0 +1,28 @@
+.metricas-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 5vh 5vw;
+}
+
+.metrica-conteudo{
+    width: 20%;
+}
+
+.dados{
+    font-size: 60px;
+    color: var(--vermelho);
+    font-weight: 600;
+}
+
+.descricao{
+    font-size: 18px;
+    font-weight: 500;
+    color: #101828;
+    margin: 1em 0;
+}
+
+.texto{
+    color: var(--cor-secundaria);
+    line-height: 1.5em;
+}
+
